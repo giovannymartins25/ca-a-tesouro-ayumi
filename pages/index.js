@@ -1,6 +1,10 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import Head from "next/head";
 
+<Head>
+  <title>Caça ao Tesouro ❤️</title>
+</Head>
 
 export default function Home(){
 const [puzzles,setPuzzles] = useState([])
