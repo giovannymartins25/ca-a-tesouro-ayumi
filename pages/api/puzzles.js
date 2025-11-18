@@ -1,8 +1,8 @@
 export default function handler(req, res) {
   const puzzles = [
-    { id: 1, title: 'A primeira lembrança', clue: 'Procure onde guardo algo que cheira como tarde de verão — é nosso lugar de snacks.', answer: 'salgadinho' },
-    { id: 2, title: 'A playlist escondida', clue: 'O nome da música que sempre toca quando a gente ri junto: começa com a letra P.', answer: 'praia' },
-    { id: 3, title: 'O bilhete no caderno', clue: 'O número que eu sempre esqueço mas que você lembra: soma 2+2.', answer: '4' }
+    { id: 1, title: 'O primeiro mimo (De muitos)', clue: 'Qual a primeira coisa que eu comprei pra vc?', answer: 'temaki' },
+    { id: 2, title: 'A nosssa musica', clue: 'qual a "nossa música""? (a gente se assumiu com ela kk)', answer: 'Os anjos cantam' },
+    { id: 3, title: 'Hein?', clue: 'Você me ama?', answer: 'sim' }
   ]
   res.status(200).json({ puzzles })
 }

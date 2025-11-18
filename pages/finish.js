@@ -12,8 +12,8 @@ return (
 
 
 <div className="puzzle-card">
-<h2>Mensagem Final</h2>
-<p>Parabéns minha Japa ❤️‍🩹, só você consegue passar por todas as fases do meu coração.</p>
+<h2>Aee amor!</h2>
+<p>Parabéns minha princesa, só você consegue passar por todas as fases do meu coração 💕</p>
 <p className="small"></p>
 <Link href="/"><button className="button">Voltar ao início</button></Link>
 </div>
