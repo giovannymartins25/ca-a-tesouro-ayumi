@@ -70,7 +70,7 @@ body {
   color: #555;
 }
 
-/* Input e botão */
+
 .input-row {
   display: flex;
   gap: 8px;
@@ -94,6 +94,22 @@ body {
   font-weight: 600;
   
 }
+
+.back-to-home-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.send-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 
 .home-button-wrapper {
   display: inline-block;     

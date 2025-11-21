@@ -31,7 +31,7 @@ return (
 {puzzles.length>0 ? (
 <div style={{ display: "flex", justifyContent: "center" }}>
   <Link href="/level/1" className="home-button-wrapper">
-    Começar Pista 1
+    Começar
   </Link>
 </div>
 ):(<div className="small">Carregando pistas...</div>)}

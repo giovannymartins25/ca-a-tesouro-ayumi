@@ -15,7 +15,12 @@ return (
 <h2>Aee amor!</h2>
 <p>Parabéns minha princesa, só você consegue passar por todas as fases do meu coração 💕</p>
 <p className="small"></p>
-<Link href="/"><button className="button">Voltar ao início</button></Link>
+<div className="back-to-home-wrapper">
+  <Link href="/">
+    <button className="button">Voltar ao início</button>
+  </Link>
+</div>
+
 </div>
 </div>
 )
